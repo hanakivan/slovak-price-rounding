@@ -9,7 +9,7 @@ composer require hanakivan/slovak-price-rounding
 ```
 2. Použitie
 ```php
-use hanakivan\SlovakPriceRounding;
+use \hanakivan\SlovakPriceRounding\Rounding;
 
 $price = 13.99;
 

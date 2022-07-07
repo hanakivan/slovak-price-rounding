@@ -55,11 +55,3 @@ class Rounding {
         return in_array($lastDecimal, self::DECIMALS_NEEDING_ROUNDING, true);
     }
 }
-
-
-$price = 13.99;
-if(Rounding::numberNeedsRounding($price)) {
-    echo Rounding::roundNumberBySlovakRule($price);
-
-    //displays 14.00
-}
