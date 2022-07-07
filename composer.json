@@ -1,5 +1,6 @@
 {
     "name": "hanakivan/slovak-price-rounding",
+    "description": "PHP knižnica slúžiaca na vygenerovanie zaokrúhlenej ceny pri platbách v hotovosti platené od 1.7.2022.",
     "autoload": {
         "psr-4": {
             "hanakivan\\SlovakPriceRounding\\": "src/"
